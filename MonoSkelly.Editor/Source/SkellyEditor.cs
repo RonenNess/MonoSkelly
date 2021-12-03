@@ -1713,7 +1713,7 @@ Editor version: {{L_GREEN}}1.0.0{{DEFAULT}}.", size: new Vector2(600, 400));
             }
 
             // enable / disable bones panel
-            _bonesPanel.Enabled = !_playAnimation && (_animationSelection.SelectedIndex <= 0 || _animationTimeline.MaxDuration == 0 || _animationTimeline.IsOnMark());
+            _bonesPanel.Enabled = !_playAnimation && (_animationSelection.SelectedIndex <= 0 || _animationTimeline.IsOnMark());
             _selectedBoneDisplay.Text = _bonesPanel.Enabled ? _selectedBone : "[Can't edit bones because the timeline doesn't point on a key frame]";
             _selectedBoneDisplay.FillColor = _bonesPanel.Enabled ? Color.White : Color.Orange;
 
