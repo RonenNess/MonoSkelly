@@ -646,6 +646,7 @@ To slightly reduce file size, instead of using bone paths here we use indices, w
 ### 1.0.0.2
 
 - Fixed editor crashing when adding bone to default pose and switching to animation.
+- Fixed animation clone to also copy `Repeats` and steps steps interpolation modes.
 
 # License
 

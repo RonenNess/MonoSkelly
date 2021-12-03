@@ -60,6 +60,7 @@ namespace MonoSkelly.Core
             {
                 clone.AddStep(step.Clone(this));
             }
+            clone.Repeats = Repeats;
             return clone;
         }
 

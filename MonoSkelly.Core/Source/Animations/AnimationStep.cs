@@ -90,6 +90,9 @@ namespace MonoSkelly.Core
             {
                 clone._transforms[transform.Key] = transform.Value;
             }
+            clone.PositionInterpolation = PositionInterpolation;
+            clone.RotationInterpolation = RotationInterpolation;
+            clone.ScaleInterpolation = ScaleInterpolation;
             clone.ReadOnlyTransformations = new ReadOnlyDictionary<string, Transformation>(_transforms);
             return clone;
         }
