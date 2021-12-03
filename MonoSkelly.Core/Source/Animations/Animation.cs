@@ -32,7 +32,7 @@ namespace MonoSkelly.Core
         public IReadOnlyList<AnimationStep> Steps => _steps.AsReadOnly();
 
         // skeleton this animation is attached to.
-        Skeleton _skeleton;
+        internal Skeleton _skeleton;
 
         /// <summary>
         /// Animation name.
@@ -58,7 +58,7 @@ namespace MonoSkelly.Core
             var clone = new Animation(_skeleton, Name);
             foreach (var step in _steps)
             {
-                clone.AddStep(step.Clone());
+                clone.AddStep(step.Clone(this));
             }
             return clone;
         }
@@ -92,7 +92,9 @@ namespace MonoSkelly.Core
         public void AddStep(string stepName = null, float duration = 1f, AnimationStep copyTransformFrom = null)
         {
             // create step
-            var step = (copyTransformFrom != null) ? copyTransformFrom.Clone() : new AnimationStep();
+            var step = (copyTransformFrom != null) ? 
+                copyTransformFrom.Clone(this) : 
+                new AnimationStep(this);
             step.Name = stepName;
             step.Duration = duration;
 

@@ -18,7 +18,7 @@ namespace MonoSkelly.Core
     public class Skeleton
     {
         // internal animation step to represent transformations.
-        AnimationStep _defaultPose = new AnimationStep();
+        AnimationStep _defaultPose = new AnimationStep(null);
 
         /// <summary>
         /// All the data we store for a bone.
@@ -445,7 +445,7 @@ namespace MonoSkelly.Core
                 for (var i = 0; i < stepsCount; ++i)
                 {
                     // create animation step
-                    var step = new AnimationStep();
+                    var step = new AnimationStep(animationInstance);
                     step.Name = ini.GetStr(section, $"step_{i}_name");
                     step.Duration = ini.GetFloat(section, $"step_{i}_duration");
                     step.PositionInterpolation = ini.GetEnum(section, $"step_{i}_inter_position", InterpolationTypes.Linear);

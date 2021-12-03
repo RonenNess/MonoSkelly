@@ -641,6 +641,11 @@ For every animation we have few metadata fields, like steps count and if the ani
 Every animation step contains a list of bones and the transformations to apply on every bone in this step. 
 To slightly reduce file size, instead of using bone paths here we use indices, which should match the order in which the bones appear under the `[bones]` section.
 
+# Changes
+
+### 1.0.0.2
+
+- Fixed editor crashing when adding bone to default pose and switching to animation.
 
 # License
 

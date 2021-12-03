@@ -66,20 +66,24 @@ namespace MonoSkelly.Core
         // convert bone string name to bone index
         Dictionary<string, int> _bonePathToIndex = new Dictionary<string, int>();
 
+        // parent animation
+        Animation _animation;
+
         /// <summary>
         /// Create the animation step.
         /// </summary>
-        public AnimationStep()
+        public AnimationStep(Animation animation)
         {
+            _animation = animation;
             ReadOnlyTransformations = new ReadOnlyDictionary<string, Transformation>(_transforms);
         }
 
         /// <summary>
         /// Clone this animation step.
         /// </summary>
-        public AnimationStep Clone()
+        public AnimationStep Clone(Animation parentAnimation = null)
         {
-            var clone = new AnimationStep();
+            var clone = new AnimationStep(parentAnimation ?? _animation);
             clone.Name = Name;
             clone.Duration = Duration;
             foreach (var transform in _transforms)
@@ -197,9 +201,10 @@ namespace MonoSkelly.Core
         }
 
         /// <summary>
-        /// Get bone by string name.
+        /// Get bone by its full path.
         /// </summary>
-        public BoneData GetBone(string bone)
+        /// <param name="createDefaultIfMissing">If true, will create a default bone based on skeleton if missing. If false, wil throw exception.</param>
+        public BoneData GetBone(string bone, bool createDefaultIfMissing = true)
         {
             // build bones flat array
             if (_bonesDirty || _bones == null)
@@ -208,7 +213,21 @@ namespace MonoSkelly.Core
             }
 
             // return bone
-            return GetBone(_bonePathToIndex[bone]);
+            if (_bonePathToIndex.TryGetValue(bone, out int index))
+            {
+                return GetBone(index);
+            }
+
+            // if not found in animation step, take default
+            if (createDefaultIfMissing)
+            {
+                var transform = _animation._skeleton.GetTransform(bone, null, 0, false);
+                SetTransform(bone, transform);
+                return GetBone(bone, false);
+            }
+
+            // if got here it means bone is missing and we should throw
+            throw new System.Exception($"Missing bone '{bone}'!");
         }
 
         /// <summary>
