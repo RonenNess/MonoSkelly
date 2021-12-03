@@ -120,7 +120,7 @@ namespace MonoSkelly.Editor
                     spriteBatch.Draw(_whiteRectangle, new Rectangle(destRect.X + offset, destRect.Y, 2, destRect.Height), Color.Red);
                 }
             }
-            catch (Exception e)
+            catch
             {
             }
 
