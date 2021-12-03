@@ -648,6 +648,7 @@ To slightly reduce file size, instead of using bone paths here we use indices, w
 - Fixed editor crashing when adding bone to default pose and switching to animation.
 - Fixed animation clone to also copy `Repeats` and steps steps interpolation modes.
 - Fixed editor to lock transformations while animation with no steps is selected.
+- Made the animations dropdown sorted by name.
 
 # License
 

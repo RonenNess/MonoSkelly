@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Input;
 using MonoSkelly.Core;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MonoSkelly.Editor
 {
@@ -1365,7 +1366,7 @@ namespace MonoSkelly.Editor
             // reset animations
             _animationSelection.ClearItems();
             _animationSelection.AddItem(DefaultNoneAnimationName);
-            foreach (var animation in _skeleton.Animations)
+            foreach (var animation in _skeleton.Animations.OrderBy(x => x))
             {
                 _animationSelection.AddItem(animation);
             }
