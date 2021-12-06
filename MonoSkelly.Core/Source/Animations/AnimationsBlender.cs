@@ -73,6 +73,16 @@ namespace MonoSkelly.Core
         }
 
         /// <summary>
+        /// Switch source and target animations, invert the blend factor (so there won't be a jump), and set the new blend target animation.
+        /// </summary>
+        /// <param name="blendTo">New animation to blend to.</param>
+        public void SetNextAnimation(AnimationState blendTo)
+        {
+            Switch();
+            BlendTo = blendTo;
+        }
+
+        /// <summary>
         /// Get bone absolute transformation for current animation step.
         /// </summary>
         /// <param name="bone">Bone id to get.</param>

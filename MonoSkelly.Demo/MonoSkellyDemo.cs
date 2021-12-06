@@ -252,8 +252,7 @@ namespace MonoSkelly.Demo
                 _debugSkeletonanimationProgress = 0f;
 
                 // set new active animation for actual drawing
-                _animationsBlender.Switch();
-                _animationsBlender.BlendTo = _playerSkeleton.BeginAnimation(_currentAnimationName);
+                _animationsBlender.SetNextAnimation(_playerSkeleton.BeginAnimation(_currentAnimationName));
 
                 // set previous animation
                 _previousAnimationName = _currentAnimationName;
