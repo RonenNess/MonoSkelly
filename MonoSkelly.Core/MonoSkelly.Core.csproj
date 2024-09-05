@@ -2,7 +2,36 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <VersionPrefix>1.1.0</VersionPrefix>
+    <Title>MonoSkelly</Title>
+    <Authors>RonenNess</Authors>
+    <Description>Skeleton-based 3d animations for MonoGame.</Description>
+    <Copyright>Ronen Ness 2024</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/RonenNess/MonoSkelly</RepositoryUrl>
+    <PackageTags>monogame;3d;animations;skeleton;skinned</PackageTags>
+    <PackageReleaseNotes>Updated all dependencies and .net version to 8.0.</PackageReleaseNotes>
+    <PackageId>MonoSkelly</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Resources\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105" />

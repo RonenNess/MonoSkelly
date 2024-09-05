@@ -651,6 +651,11 @@ To slightly reduce file size, instead of using bone paths here we use indices, w
 - Made the animations dropdown sorted by name.
 - Added 'SetNextAnimation' helper method to animations blender.
 
+### 1.1.0
+
+- Updated all dependencies and MonoGame to latest version.
+- Updated .net version to 8.0.
+
 # License
 
 *MonoSkelly* is distributed under the MIT license, so use it for whatever.
