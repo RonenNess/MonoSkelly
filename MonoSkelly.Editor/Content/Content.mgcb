@@ -10,7 +10,6 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:GeonBit.UI.DataTypes.dll
 
 #---------------------------------- Content ---------------------------------#
 
@@ -113,480 +112,334 @@
 /processorParam:TextureFormat=Color
 /build:Editor/play_btn.png
 
-#begin GeonBit.UI/themes/editor/effects/disabled.fx
+#begin Fonts/AnonymousPro-Bold.ttf
+/copy:Fonts/AnonymousPro-Bold.ttf
+
+#begin Fonts/AnonymousPro-Italic.ttf
+/copy:Fonts/AnonymousPro-Italic.ttf
+
+#begin Fonts/AnonymousPro-Regular.ttf
+/copy:Fonts/AnonymousPro-Regular.ttf
+
+#begin Fonts/Bitstream Vera Sans Mono Bold Oblique.ttf
+/copy:Fonts/Bitstream Vera Sans Mono Bold Oblique.ttf
+
+#begin Fonts/Bitstream Vera Sans Mono Bold.ttf
+/copy:Fonts/Bitstream Vera Sans Mono Bold.ttf
+
+#begin Fonts/Bitstream Vera Sans Mono Oblique.ttf
+/copy:Fonts/Bitstream Vera Sans Mono Oblique.ttf
+
+#begin Fonts/Bitstream Vera Sans Mono Roman.ttf
+/copy:Fonts/Bitstream Vera Sans Mono Roman.ttf
+
+#begin GeonBit.UI/Themes/editor/effects/disabled.fx
 /importer:EffectImporter
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
-/build:GeonBit.UI/themes/editor/effects/disabled.fx
+/build:GeonBit.UI/Themes/editor/effects/disabled.fx
 
-#begin GeonBit.UI/themes/editor/effects/silhouette.fx
+#begin GeonBit.UI/Themes/editor/effects/silhouette.fx
 /importer:EffectImporter
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
-/build:GeonBit.UI/themes/editor/effects/silhouette.fx
+/build:GeonBit.UI/Themes/editor/effects/silhouette.fx
 
-#begin GeonBit.UI/themes/editor/fonts/Bold.spritefont
+#begin GeonBit.UI/Themes/editor/fonts/Bold.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:GeonBit.UI/themes/editor/fonts/Bold.spritefont
+/build:GeonBit.UI/Themes/editor/fonts/Bold.spritefont
 
-#begin GeonBit.UI/themes/editor/fonts/Italic.spritefont
+#begin GeonBit.UI/Themes/editor/fonts/Italic.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:GeonBit.UI/themes/editor/fonts/Italic.spritefont
+/build:GeonBit.UI/Themes/editor/fonts/Italic.spritefont
 
-#begin GeonBit.UI/themes/editor/fonts/Regular.spritefont
+#begin GeonBit.UI/Themes/editor/fonts/Regular.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:GeonBit.UI/themes/editor/fonts/Regular.spritefont
-
-#begin GeonBit.UI/themes/editor/styles/Button-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Button-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/Button-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Button-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/Button-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Button-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/ButtonParagraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ButtonParagraph-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/ButtonParagraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ButtonParagraph-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/ButtonParagraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ButtonParagraph-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/CheckBox-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/CheckBox-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/CheckBox-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/CheckBox-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/CheckBox-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/CheckBox-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/CheckBoxParagraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/CheckBoxParagraph-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/CheckBoxParagraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/CheckBoxParagraph-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/CheckBoxParagraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/CheckBoxParagraph-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/ColoredRectangle-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ColoredRectangle-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/ColoredRectangle-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ColoredRectangle-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/ColoredRectangle-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ColoredRectangle-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDown-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDown-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDown-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDown-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDown-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDown-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDownParagraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDownParagraph-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDownParagraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDownParagraph-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDownParagraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDownParagraph-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDownSelectedParagraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDownSelectedParagraph-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDownSelectedParagraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDownSelectedParagraph-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/DropDownSelectedParagraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/DropDownSelectedParagraph-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/Entity-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Entity-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/Entity-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Entity-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/Entity-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Entity-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/example.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/example.xml
-
-#begin GeonBit.UI/themes/editor/styles/Header-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Header-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/Header-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Header-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/Header-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Header-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/HorizontalLine-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/HorizontalLine-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/HorizontalLine-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/HorizontalLine-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/HorizontalLine-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/HorizontalLine-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/Icon-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Icon-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/Icon-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Icon-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/Icon-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Icon-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/Image-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Image-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/Image-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Image-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/Image-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Image-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/Label-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Label-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/Label-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Label-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/Label-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Label-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/Panel-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Panel-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/Panel-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Panel-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/Panel-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Panel-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/PanelTabsButton-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/PanelTabsButton-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/PanelTabsButton-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/PanelTabsButton-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/PanelTabsButton-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/PanelTabsButton-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/PanelTabsButtonParagraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/PanelTabsButtonParagraph-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/PanelTabsButtonParagraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/PanelTabsButtonParagraph-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/PanelTabsButtonParagraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/PanelTabsButtonParagraph-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/Paragraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Paragraph-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/Paragraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Paragraph-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/Paragraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Paragraph-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/ProgressBar-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ProgressBar-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/ProgressBarFill-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ProgressBarFill-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/ProgressBarFill-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ProgressBarFill-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/ProgressBarFill-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ProgressBarFill-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/ProgressBar-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ProgressBar-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/ProgressBar-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/ProgressBar-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/RadioButton-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/RadioButton-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/RadioButton-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/RadioButton-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/RadioButton-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/RadioButton-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/RadioButtonParagraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/RadioButtonParagraph-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/RadioButtonParagraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/RadioButtonParagraph-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/RadioButtonParagraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/RadioButtonParagraph-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/SelectList-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/SelectList-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/SelectList-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/SelectList-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/SelectList-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/SelectList-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/SelectListParagraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/SelectListParagraph-Default.xml
-
-#begin GeonBit.UI/themes/editor/styles/SelectListParagraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/SelectListParagraph-MouseDown.xml
-
-#begin GeonBit.UI/themes/editor/styles/SelectListParagraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/SelectListParagraph-MouseHover.xml
-
-#begin GeonBit.UI/themes/editor/styles/Slider-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Slider-Default.xml
+/build:GeonBit.UI/Themes/editor/fonts/Regular.spritefont
 
-#begin GeonBit.UI/themes/editor/styles/Slider-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Slider-MouseDown.xml
+#begin GeonBit.UI/Themes/editor/styles/Button-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Button-Default.xml
 
-#begin GeonBit.UI/themes/editor/styles/Slider-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/Slider-MouseHover.xml
+#begin GeonBit.UI/Themes/editor/styles/Button-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Button-MouseDown.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInput-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInput-Default.xml
+#begin GeonBit.UI/Themes/editor/styles/Button-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Button-MouseHover.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInput-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInput-MouseDown.xml
+#begin GeonBit.UI/Themes/editor/styles/ButtonParagraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/ButtonParagraph-Default.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInput-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInput-MouseHover.xml
+#begin GeonBit.UI/Themes/editor/styles/ButtonParagraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/ButtonParagraph-MouseDown.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInputParagraph-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInputParagraph-Default.xml
+#begin GeonBit.UI/Themes/editor/styles/ButtonParagraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/ButtonParagraph-MouseHover.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInputParagraph-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInputParagraph-MouseDown.xml
+#begin GeonBit.UI/Themes/editor/styles/CheckBox-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/CheckBox-Default.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInputParagraph-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInputParagraph-MouseHover.xml
+#begin GeonBit.UI/Themes/editor/styles/CheckBox-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/CheckBox-MouseDown.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInputPlaceholder-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInputPlaceholder-Default.xml
+#begin GeonBit.UI/Themes/editor/styles/CheckBox-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/CheckBox-MouseHover.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInputPlaceholder-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInputPlaceholder-MouseDown.xml
+#begin GeonBit.UI/Themes/editor/styles/CheckBoxParagraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/CheckBoxParagraph-Default.xml
 
-#begin GeonBit.UI/themes/editor/styles/TextInputPlaceholder-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/TextInputPlaceholder-MouseHover.xml
+#begin GeonBit.UI/Themes/editor/styles/CheckBoxParagraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/CheckBoxParagraph-MouseDown.xml
 
-#begin GeonBit.UI/themes/editor/styles/VerticalScrollbar-Default.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/VerticalScrollbar-Default.xml
+#begin GeonBit.UI/Themes/editor/styles/CheckBoxParagraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/CheckBoxParagraph-MouseHover.xml
 
-#begin GeonBit.UI/themes/editor/styles/VerticalScrollbar-MouseDown.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/VerticalScrollbar-MouseDown.xml
+#begin GeonBit.UI/Themes/editor/styles/ColoredRectangle-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/ColoredRectangle-Default.xml
 
-#begin GeonBit.UI/themes/editor/styles/VerticalScrollbar-MouseHover.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/styles/VerticalScrollbar-MouseHover.xml
+#begin GeonBit.UI/Themes/editor/styles/ColoredRectangle-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/ColoredRectangle-MouseDown.xml
 
-#begin GeonBit.UI/themes/editor/textures/arrow_down.png
+#begin GeonBit.UI/Themes/editor/styles/ColoredRectangle-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/ColoredRectangle-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDown-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDown-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDown-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDown-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDown-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDown-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownParagraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownParagraph-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownParagraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownParagraph-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownParagraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownParagraph-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownSelectedPanel-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownSelectedPanel-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownSelectedPanel-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownSelectedPanel-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownSelectedPanel-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownSelectedPanel-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownSelectedParagraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownSelectedParagraph-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownSelectedParagraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownSelectedParagraph-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/DropDownSelectedParagraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/DropDownSelectedParagraph-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Entity-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Entity-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Entity-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Entity-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Entity-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Entity-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/example.xml
+/copy:GeonBit.UI/Themes/editor/styles/example.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Header-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Header-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Header-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Header-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Header-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Header-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/HorizontalLine-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/HorizontalLine-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/HorizontalLine-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/HorizontalLine-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/HorizontalLine-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/HorizontalLine-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Icon-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Icon-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Icon-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Icon-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Icon-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Icon-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Image-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Image-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Image-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Image-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Image-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Image-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Label-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Label-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Label-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Label-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Label-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Label-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Panel-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Panel-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Panel-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Panel-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Panel-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Panel-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/PanelTabsButton-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/PanelTabsButton-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/PanelTabsButton-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/PanelTabsButton-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/PanelTabsButton-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/PanelTabsButton-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/PanelTabsButtonParagraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/PanelTabsButtonParagraph-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/PanelTabsButtonParagraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/PanelTabsButtonParagraph-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/PanelTabsButtonParagraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/PanelTabsButtonParagraph-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Paragraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Paragraph-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Paragraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Paragraph-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Paragraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Paragraph-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/ProgressBar-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/ProgressBar-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/ProgressBarFill-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/ProgressBarFill-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/ProgressBarFill-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/ProgressBarFill-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/ProgressBarFill-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/ProgressBarFill-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/ProgressBar-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/ProgressBar-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/ProgressBar-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/ProgressBar-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/RadioButton-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/RadioButton-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/RadioButton-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/RadioButton-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/RadioButton-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/RadioButton-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/RadioButtonParagraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/RadioButtonParagraph-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/RadioButtonParagraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/RadioButtonParagraph-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/RadioButtonParagraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/RadioButtonParagraph-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/SelectList-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/SelectList-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/SelectList-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/SelectList-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/SelectList-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/SelectList-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/SelectListParagraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/SelectListParagraph-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/SelectListParagraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/SelectListParagraph-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/SelectListParagraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/SelectListParagraph-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Slider-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/Slider-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Slider-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/Slider-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/Slider-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/Slider-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInput-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInput-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInput-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInput-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInput-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInput-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInputParagraph-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInputParagraph-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInputParagraph-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInputParagraph-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInputParagraph-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInputParagraph-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInputPlaceholder-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInputPlaceholder-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInputPlaceholder-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInputPlaceholder-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/TextInputPlaceholder-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/TextInputPlaceholder-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/styles/VerticalScrollbar-Default.xml
+/copy:GeonBit.UI/Themes/editor/styles/VerticalScrollbar-Default.xml
+
+#begin GeonBit.UI/Themes/editor/styles/VerticalScrollbar-MouseDown.xml
+/copy:GeonBit.UI/Themes/editor/styles/VerticalScrollbar-MouseDown.xml
+
+#begin GeonBit.UI/Themes/editor/styles/VerticalScrollbar-MouseHover.xml
+/copy:GeonBit.UI/Themes/editor/styles/VerticalScrollbar-MouseHover.xml
+
+#begin GeonBit.UI/Themes/editor/textures/arrow_down.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -596,9 +449,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/arrow_down.png
+/build:GeonBit.UI/Themes/editor/textures/arrow_down.png
 
-#begin GeonBit.UI/themes/editor/textures/arrow_up.png
+#begin GeonBit.UI/Themes/editor/textures/arrow_up.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -608,9 +461,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/arrow_up.png
+/build:GeonBit.UI/Themes/editor/textures/arrow_up.png
 
-#begin GeonBit.UI/themes/editor/textures/button_alternative.png
+#begin GeonBit.UI/Themes/editor/textures/button_alternative.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -620,9 +473,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_alternative.png
+/build:GeonBit.UI/Themes/editor/textures/button_alternative.png
 
-#begin GeonBit.UI/themes/editor/textures/button_alternative_down.png
+#begin GeonBit.UI/Themes/editor/textures/button_alternative_down.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -632,9 +485,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_alternative_down.png
+/build:GeonBit.UI/Themes/editor/textures/button_alternative_down.png
 
-#begin GeonBit.UI/themes/editor/textures/button_alternative_hover.png
+#begin GeonBit.UI/Themes/editor/textures/button_alternative_hover.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -644,14 +497,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_alternative_hover.png
+/build:GeonBit.UI/Themes/editor/textures/button_alternative_hover.png
 
-#begin GeonBit.UI/themes/editor/textures/button_alternative_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/button_alternative_md.xml
+#begin GeonBit.UI/Themes/editor/textures/button_alternative_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/button_alternative_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/button_default.png
+#begin GeonBit.UI/Themes/editor/textures/button_default.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -661,9 +512,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_default.png
+/build:GeonBit.UI/Themes/editor/textures/button_default.png
 
-#begin GeonBit.UI/themes/editor/textures/button_default_down.png
+#begin GeonBit.UI/Themes/editor/textures/button_default_down.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -673,9 +524,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_default_down.png
+/build:GeonBit.UI/Themes/editor/textures/button_default_down.png
 
-#begin GeonBit.UI/themes/editor/textures/button_default_hover.png
+#begin GeonBit.UI/Themes/editor/textures/button_default_hover.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -685,14 +536,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_default_hover.png
+/build:GeonBit.UI/Themes/editor/textures/button_default_hover.png
 
-#begin GeonBit.UI/themes/editor/textures/button_default_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/button_default_md.xml
+#begin GeonBit.UI/Themes/editor/textures/button_default_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/button_default_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/button_fancy.png
+#begin GeonBit.UI/Themes/editor/textures/button_fancy.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -702,9 +551,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_fancy.png
+/build:GeonBit.UI/Themes/editor/textures/button_fancy.png
 
-#begin GeonBit.UI/themes/editor/textures/button_fancy_down.png
+#begin GeonBit.UI/Themes/editor/textures/button_fancy_down.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -714,9 +563,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_fancy_down.png
+/build:GeonBit.UI/Themes/editor/textures/button_fancy_down.png
 
-#begin GeonBit.UI/themes/editor/textures/button_fancy_hover.png
+#begin GeonBit.UI/Themes/editor/textures/button_fancy_hover.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -726,14 +575,24 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/button_fancy_hover.png
+/build:GeonBit.UI/Themes/editor/textures/button_fancy_hover.png
 
-#begin GeonBit.UI/themes/editor/textures/button_fancy_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/button_fancy_md.xml
+#begin GeonBit.UI/Themes/editor/textures/button_fancy_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/button_fancy_md.xml
+
+#begin GeonBit.UI/Themes/editor/textures/checkbox.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:GeonBit.UI/Themes/editor/textures/checkbox.png
 
-#begin GeonBit.UI/themes/editor/textures/checkbox.png
+#begin GeonBit.UI/Themes/editor/textures/checkbox_down.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -743,9 +602,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/checkbox.png
+/build:GeonBit.UI/Themes/editor/textures/checkbox_down.png
 
-#begin GeonBit.UI/themes/editor/textures/checkbox_down.png
+#begin GeonBit.UI/Themes/editor/textures/checkbox_hover.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -755,9 +614,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/checkbox_down.png
+/build:GeonBit.UI/Themes/editor/textures/checkbox_hover.png
 
-#begin GeonBit.UI/themes/editor/textures/checkbox_hover.png
+#begin GeonBit.UI/Themes/editor/textures/cursor_default.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -767,9 +626,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/checkbox_hover.png
+/build:GeonBit.UI/Themes/editor/textures/cursor_default.png
+
+#begin GeonBit.UI/Themes/editor/textures/cursor_default_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/cursor_default_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/cursor_default.png
+#begin GeonBit.UI/Themes/editor/textures/cursor_ibeam.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -779,14 +641,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/cursor_default.png
+/build:GeonBit.UI/Themes/editor/textures/cursor_ibeam.png
 
-#begin GeonBit.UI/themes/editor/textures/cursor_default_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/cursor_default_md.xml
+#begin GeonBit.UI/Themes/editor/textures/cursor_ibeam_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/cursor_ibeam_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/cursor_ibeam.png
+#begin GeonBit.UI/Themes/editor/textures/cursor_pointer.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -796,14 +656,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/cursor_ibeam.png
+/build:GeonBit.UI/Themes/editor/textures/cursor_pointer.png
 
-#begin GeonBit.UI/themes/editor/textures/cursor_ibeam_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/cursor_ibeam_md.xml
+#begin GeonBit.UI/Themes/editor/textures/cursor_pointer_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/cursor_pointer_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/cursor_pointer.png
+#begin GeonBit.UI/Themes/editor/textures/file_icon.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -813,14 +671,21 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/cursor_pointer.png
+/build:GeonBit.UI/Themes/editor/textures/file_icon.png
 
-#begin GeonBit.UI/themes/editor/textures/cursor_pointer_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/cursor_pointer_md.xml
+#begin GeonBit.UI/Themes/editor/textures/folder_icon.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:GeonBit.UI/Themes/editor/textures/folder_icon.png
 
-#begin GeonBit.UI/themes/editor/textures/horizontal_line.png
+#begin GeonBit.UI/Themes/editor/textures/horizontal_line.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -830,9 +695,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/horizontal_line.png
+/build:GeonBit.UI/Themes/editor/textures/horizontal_line.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Apple.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Apple.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -842,9 +707,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Apple.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Apple.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Armor.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Armor.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -854,9 +719,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Armor.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Armor.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Axe.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Axe.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -866,9 +731,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Axe.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Axe.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/background.png
+#begin GeonBit.UI/Themes/editor/textures/icons/background.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -878,9 +743,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/background.png
+/build:GeonBit.UI/Themes/editor/textures/icons/background.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/BloodySword.png
+#begin GeonBit.UI/Themes/editor/textures/icons/BloodySword.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -890,9 +755,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/BloodySword.png
+/build:GeonBit.UI/Themes/editor/textures/icons/BloodySword.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Bone.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Bone.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -902,9 +767,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Bone.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Bone.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Book.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Book.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -914,9 +779,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Book.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Book.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Cubes.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Cubes.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -926,9 +791,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Cubes.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Cubes.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Diamond.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Diamond.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -938,9 +803,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Diamond.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Diamond.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Explanation.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Explanation.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -950,9 +815,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Explanation.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Explanation.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Feather.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Feather.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -962,9 +827,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Feather.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Feather.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/FloppyDisk.png
+#begin GeonBit.UI/Themes/editor/textures/icons/FloppyDisk.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -974,9 +839,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/FloppyDisk.png
+/build:GeonBit.UI/Themes/editor/textures/icons/FloppyDisk.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/GoldCoins.png
+#begin GeonBit.UI/Themes/editor/textures/icons/GoldCoins.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -986,9 +851,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/GoldCoins.png
+/build:GeonBit.UI/Themes/editor/textures/icons/GoldCoins.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/GoldShard.png
+#begin GeonBit.UI/Themes/editor/textures/icons/GoldShard.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -998,9 +863,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/GoldShard.png
+/build:GeonBit.UI/Themes/editor/textures/icons/GoldShard.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Heart.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Heart.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1010,9 +875,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Heart.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Heart.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Helmet.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Helmet.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1022,9 +887,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Helmet.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Helmet.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Key.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Key.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1034,9 +899,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Key.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Key.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/MagicBook.png
+#begin GeonBit.UI/Themes/editor/textures/icons/MagicBook.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1046,9 +911,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/MagicBook.png
+/build:GeonBit.UI/Themes/editor/textures/icons/MagicBook.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/MagicWand.png
+#begin GeonBit.UI/Themes/editor/textures/icons/MagicWand.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1058,9 +923,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/MagicWand.png
+/build:GeonBit.UI/Themes/editor/textures/icons/MagicWand.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Map.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Map.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1070,9 +935,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Map.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Map.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/None.png
+#begin GeonBit.UI/Themes/editor/textures/icons/None.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1082,9 +947,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/None.png
+/build:GeonBit.UI/Themes/editor/textures/icons/None.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/OrbBlue.png
+#begin GeonBit.UI/Themes/editor/textures/icons/OrbBlue.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1094,9 +959,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/OrbBlue.png
+/build:GeonBit.UI/Themes/editor/textures/icons/OrbBlue.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/OrbGreen.png
+#begin GeonBit.UI/Themes/editor/textures/icons/OrbGreen.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1106,9 +971,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/OrbGreen.png
+/build:GeonBit.UI/Themes/editor/textures/icons/OrbGreen.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/OrbRed.png
+#begin GeonBit.UI/Themes/editor/textures/icons/OrbRed.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1118,9 +983,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/OrbRed.png
+/build:GeonBit.UI/Themes/editor/textures/icons/OrbRed.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Pistol.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Pistol.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1130,9 +995,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Pistol.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Pistol.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/PotionBlue.png
+#begin GeonBit.UI/Themes/editor/textures/icons/PotionBlue.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1142,9 +1007,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/PotionBlue.png
+/build:GeonBit.UI/Themes/editor/textures/icons/PotionBlue.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/PotionCyan.png
+#begin GeonBit.UI/Themes/editor/textures/icons/PotionCyan.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1154,9 +1019,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/PotionCyan.png
+/build:GeonBit.UI/Themes/editor/textures/icons/PotionCyan.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/PotionGreen.png
+#begin GeonBit.UI/Themes/editor/textures/icons/PotionGreen.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1166,9 +1031,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/PotionGreen.png
+/build:GeonBit.UI/Themes/editor/textures/icons/PotionGreen.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/PotionPurple.png
+#begin GeonBit.UI/Themes/editor/textures/icons/PotionPurple.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1178,9 +1043,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/PotionPurple.png
+/build:GeonBit.UI/Themes/editor/textures/icons/PotionPurple.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/PotionRed.png
+#begin GeonBit.UI/Themes/editor/textures/icons/PotionRed.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1190,9 +1055,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/PotionRed.png
+/build:GeonBit.UI/Themes/editor/textures/icons/PotionRed.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/PotionYellow.png
+#begin GeonBit.UI/Themes/editor/textures/icons/PotionYellow.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1202,9 +1067,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/PotionYellow.png
+/build:GeonBit.UI/Themes/editor/textures/icons/PotionYellow.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Ring.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Ring.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1214,9 +1079,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Ring.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Ring.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/RingGold.png
+#begin GeonBit.UI/Themes/editor/textures/icons/RingGold.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1226,9 +1091,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/RingGold.png
+/build:GeonBit.UI/Themes/editor/textures/icons/RingGold.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/RingGoldRuby.png
+#begin GeonBit.UI/Themes/editor/textures/icons/RingGoldRuby.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1238,9 +1103,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/RingGoldRuby.png
+/build:GeonBit.UI/Themes/editor/textures/icons/RingGoldRuby.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/RingRuby.png
+#begin GeonBit.UI/Themes/editor/textures/icons/RingRuby.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1250,9 +1115,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/RingRuby.png
+/build:GeonBit.UI/Themes/editor/textures/icons/RingRuby.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/RubyBlue.png
+#begin GeonBit.UI/Themes/editor/textures/icons/RubyBlue.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1262,9 +1127,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/RubyBlue.png
+/build:GeonBit.UI/Themes/editor/textures/icons/RubyBlue.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/RubyGreen.png
+#begin GeonBit.UI/Themes/editor/textures/icons/RubyGreen.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1274,9 +1139,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/RubyGreen.png
+/build:GeonBit.UI/Themes/editor/textures/icons/RubyGreen.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/RubyPink.png
+#begin GeonBit.UI/Themes/editor/textures/icons/RubyPink.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1286,9 +1151,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/RubyPink.png
+/build:GeonBit.UI/Themes/editor/textures/icons/RubyPink.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/RubyPurple.png
+#begin GeonBit.UI/Themes/editor/textures/icons/RubyPurple.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1298,9 +1163,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/RubyPurple.png
+/build:GeonBit.UI/Themes/editor/textures/icons/RubyPurple.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/RubyRed.png
+#begin GeonBit.UI/Themes/editor/textures/icons/RubyRed.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1310,9 +1175,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/RubyRed.png
+/build:GeonBit.UI/Themes/editor/textures/icons/RubyRed.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Sack.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Sack.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1322,9 +1187,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Sack.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Sack.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Scroll.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Scroll.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1334,9 +1199,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Scroll.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Scroll.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Shield.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Shield.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1346,9 +1211,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Shield.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Shield.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/ShieldAndSword.png
+#begin GeonBit.UI/Themes/editor/textures/icons/ShieldAndSword.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1358,9 +1223,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/ShieldAndSword.png
+/build:GeonBit.UI/Themes/editor/textures/icons/ShieldAndSword.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Shovel.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Shovel.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1370,9 +1235,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Shovel.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Shovel.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/SilverShard.png
+#begin GeonBit.UI/Themes/editor/textures/icons/SilverShard.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1382,9 +1247,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/SilverShard.png
+/build:GeonBit.UI/Themes/editor/textures/icons/SilverShard.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Skull.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Skull.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1394,9 +1259,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Skull.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Skull.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Sword.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Sword.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1406,9 +1271,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Sword.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Sword.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/Trap.png
+#begin GeonBit.UI/Themes/editor/textures/icons/Trap.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1418,9 +1283,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/Trap.png
+/build:GeonBit.UI/Themes/editor/textures/icons/Trap.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/ZoomIn.png
+#begin GeonBit.UI/Themes/editor/textures/icons/ZoomIn.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1430,9 +1295,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/ZoomIn.png
+/build:GeonBit.UI/Themes/editor/textures/icons/ZoomIn.png
 
-#begin GeonBit.UI/themes/editor/textures/icons/ZoomOut.png
+#begin GeonBit.UI/Themes/editor/textures/icons/ZoomOut.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1442,9 +1307,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/icons/ZoomOut.png
+/build:GeonBit.UI/Themes/editor/textures/icons/ZoomOut.png
 
-#begin GeonBit.UI/themes/editor/textures/panel_default.png
+#begin GeonBit.UI/Themes/editor/textures/panel_default.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1454,14 +1319,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/panel_default.png
+/build:GeonBit.UI/Themes/editor/textures/panel_default.png
 
-#begin GeonBit.UI/themes/editor/textures/panel_default_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/panel_default_md.xml
+#begin GeonBit.UI/Themes/editor/textures/panel_default_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/panel_default_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/panel_fancy.png
+#begin GeonBit.UI/Themes/editor/textures/panel_fancy.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1471,14 +1334,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/panel_fancy.png
+/build:GeonBit.UI/Themes/editor/textures/panel_fancy.png
 
-#begin GeonBit.UI/themes/editor/textures/panel_fancy_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/panel_fancy_md.xml
+#begin GeonBit.UI/Themes/editor/textures/panel_fancy_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/panel_fancy_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/panel_golden.png
+#begin GeonBit.UI/Themes/editor/textures/panel_golden.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1488,14 +1349,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/panel_golden.png
+/build:GeonBit.UI/Themes/editor/textures/panel_golden.png
 
-#begin GeonBit.UI/themes/editor/textures/panel_golden_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/panel_golden_md.xml
+#begin GeonBit.UI/Themes/editor/textures/panel_golden_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/panel_golden_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/panel_listbackground.png
+#begin GeonBit.UI/Themes/editor/textures/panel_listbackground.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1505,14 +1364,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/panel_listbackground.png
+/build:GeonBit.UI/Themes/editor/textures/panel_listbackground.png
 
-#begin GeonBit.UI/themes/editor/textures/panel_listbackground_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/panel_listbackground_md.xml
+#begin GeonBit.UI/Themes/editor/textures/panel_listbackground_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/panel_listbackground_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/panel_simple.png
+#begin GeonBit.UI/Themes/editor/textures/panel_simple.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1522,14 +1379,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/panel_simple.png
+/build:GeonBit.UI/Themes/editor/textures/panel_simple.png
 
-#begin GeonBit.UI/themes/editor/textures/panel_simple_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/panel_simple_md.xml
+#begin GeonBit.UI/Themes/editor/textures/panel_simple_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/panel_simple_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/progressbar.png
+#begin GeonBit.UI/Themes/editor/textures/progressbar.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1539,9 +1394,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/progressbar.png
+/build:GeonBit.UI/Themes/editor/textures/progressbar.png
 
-#begin GeonBit.UI/themes/editor/textures/progressbar_fill.png
+#begin GeonBit.UI/Themes/editor/textures/progressbar_fill.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1551,14 +1406,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/progressbar_fill.png
+/build:GeonBit.UI/Themes/editor/textures/progressbar_fill.png
 
-#begin GeonBit.UI/themes/editor/textures/progressbar_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/progressbar_md.xml
+#begin GeonBit.UI/Themes/editor/textures/progressbar_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/progressbar_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/radio.png
+#begin GeonBit.UI/Themes/editor/textures/radio.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1568,9 +1421,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/radio.png
+/build:GeonBit.UI/Themes/editor/textures/radio.png
 
-#begin GeonBit.UI/themes/editor/textures/radio_down.png
+#begin GeonBit.UI/Themes/editor/textures/radio_down.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1580,9 +1433,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/radio_down.png
+/build:GeonBit.UI/Themes/editor/textures/radio_down.png
 
-#begin GeonBit.UI/themes/editor/textures/radio_hover.png
+#begin GeonBit.UI/Themes/editor/textures/radio_hover.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1592,9 +1445,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/radio_hover.png
+/build:GeonBit.UI/Themes/editor/textures/radio_hover.png
 
-#begin GeonBit.UI/themes/editor/textures/scrollbar.png
+#begin GeonBit.UI/Themes/editor/textures/scrollbar.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1604,9 +1457,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/scrollbar.png
+/build:GeonBit.UI/Themes/editor/textures/scrollbar.png
 
-#begin GeonBit.UI/themes/editor/textures/scrollbar_mark.png
+#begin GeonBit.UI/Themes/editor/textures/scrollbar_mark.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1616,14 +1469,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/scrollbar_mark.png
+/build:GeonBit.UI/Themes/editor/textures/scrollbar_mark.png
 
-#begin GeonBit.UI/themes/editor/textures/scrollbar_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/scrollbar_md.xml
+#begin GeonBit.UI/Themes/editor/textures/scrollbar_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/scrollbar_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/slider_default.png
+#begin GeonBit.UI/Themes/editor/textures/slider_default.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1633,9 +1484,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/slider_default.png
+/build:GeonBit.UI/Themes/editor/textures/slider_default.png
 
-#begin GeonBit.UI/themes/editor/textures/slider_default_mark.png
+#begin GeonBit.UI/Themes/editor/textures/slider_default_mark.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1645,14 +1496,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/slider_default_mark.png
+/build:GeonBit.UI/Themes/editor/textures/slider_default_mark.png
 
-#begin GeonBit.UI/themes/editor/textures/slider_default_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/slider_default_md.xml
+#begin GeonBit.UI/Themes/editor/textures/slider_default_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/slider_default_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/slider_fancy.png
+#begin GeonBit.UI/Themes/editor/textures/slider_fancy.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1662,9 +1511,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/slider_fancy.png
+/build:GeonBit.UI/Themes/editor/textures/slider_fancy.png
 
-#begin GeonBit.UI/themes/editor/textures/slider_fancy_mark.png
+#begin GeonBit.UI/Themes/editor/textures/slider_fancy_mark.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1674,14 +1523,12 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/slider_fancy_mark.png
+/build:GeonBit.UI/Themes/editor/textures/slider_fancy_mark.png
 
-#begin GeonBit.UI/themes/editor/textures/slider_fancy_md.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/textures/slider_fancy_md.xml
+#begin GeonBit.UI/Themes/editor/textures/slider_fancy_md.xml
+/copy:GeonBit.UI/Themes/editor/textures/slider_fancy_md.xml
 
-#begin GeonBit.UI/themes/editor/textures/white_texture.png
+#begin GeonBit.UI/Themes/editor/textures/white_texture.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -1691,10 +1538,5 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GeonBit.UI/themes/editor/textures/white_texture.png
-
-#begin GeonBit.UI/themes/editor/ThemeData.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:GeonBit.UI/themes/editor/ThemeData.xml
+/build:GeonBit.UI/Themes/editor/textures/white_texture.png
 

@@ -1464,7 +1464,7 @@ size: new Vector2(860, 800));
 To learn more, please visit 
 {{L_GREEN}}https://github.com/RonenNess/MonoSkelly{{DEFAULT}}
 
-Editor version: {{L_GREEN}}1.0.0{{DEFAULT}}.", size: new Vector2(600, 400));
+Editor version: {{L_GREEN}}1.1.0{{DEFAULT}}.", size: new Vector2(600, 400));
         }
 
         /// <summary>
