@@ -241,21 +241,21 @@ namespace MonoSkelly.Editor
 
             _boneRotateX = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneRotateX.Value = "0";
-            _boneRotateX.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneRotateX.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneRotateX.OnValueChange = UpdateBoneTransform;
             _boneRotateX.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneRotateX);
 
             _boneRotateY = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneRotateY.Value = "0";
-            _boneRotateY.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneRotateY.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneRotateY.OnValueChange = UpdateBoneTransform;
             _boneRotateY.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneRotateY);
 
             _boneRotateZ = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneRotateZ.Value = "0";
-            _boneRotateZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneRotateZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneRotateZ.OnValueChange = UpdateBoneTransform;
             _boneRotateZ.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneRotateZ);
@@ -265,21 +265,21 @@ namespace MonoSkelly.Editor
 
             _boneOffsetX = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneOffsetX.Value = "0";
-            _boneOffsetX.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneOffsetX.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneOffsetX.OnValueChange = UpdateBoneTransform;
             _boneOffsetX.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneOffsetX);
 
             _boneOffsetY = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneOffsetY.Value = "0";
-            _boneOffsetY.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneOffsetY.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneOffsetY.OnValueChange = UpdateBoneTransform;
             _boneOffsetY.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneOffsetY);
 
             _boneOffsetZ = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneOffsetZ.Value = "0";
-            _boneOffsetZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneOffsetZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneOffsetZ.OnValueChange = UpdateBoneTransform;
             _boneOffsetZ.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneOffsetZ);
@@ -289,21 +289,21 @@ namespace MonoSkelly.Editor
 
             _boneScaleX = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneScaleX.Value = "1";
-            _boneScaleX.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneScaleX.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneScaleX.OnValueChange = UpdateBoneTransform;
             _boneScaleX.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneScaleX);
 
             _boneScaleY = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneScaleY.Value = "1";
-            _boneScaleY.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneScaleY.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneScaleY.OnValueChange = UpdateBoneTransform;
             _boneScaleY.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneScaleY);
 
             _boneScaleZ = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneScaleZ.Value = "1";
-            _boneScaleZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneScaleZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneScaleZ.OnValueChange = UpdateBoneTransform;
             _boneScaleZ.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneScaleZ);
@@ -322,21 +322,21 @@ namespace MonoSkelly.Editor
 
             _boneMeshOffsetX = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneMeshOffsetX.Value = "0";
-            _boneMeshOffsetX.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneMeshOffsetX.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneMeshOffsetX.OnValueChange = UpdateBoneMeshTransform;
             _boneMeshOffsetX.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneMeshOffsetX);
 
             _boneMeshOffsetY = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneMeshOffsetY.Value = "0";
-            _boneMeshOffsetY.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneMeshOffsetY.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneMeshOffsetY.OnValueChange = UpdateBoneMeshTransform;
             _boneMeshOffsetY.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneMeshOffsetY);
 
             _boneMeshOffsetZ = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneMeshOffsetZ.Value = "0";
-            _boneMeshOffsetZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneMeshOffsetZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneMeshOffsetZ.OnValueChange = UpdateBoneMeshTransform;
             _boneMeshOffsetZ.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneMeshOffsetZ);
@@ -346,21 +346,21 @@ namespace MonoSkelly.Editor
 
             _boneMeshScaleX = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneMeshScaleX.Value = "1";
-            _boneMeshScaleX.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneMeshScaleX.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneMeshScaleX.OnValueChange = UpdateBoneMeshTransform;
             _boneMeshScaleX.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneMeshScaleX);
 
             _boneMeshScaleY = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneMeshScaleY.Value = "1";
-            _boneMeshScaleY.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneMeshScaleY.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneMeshScaleY.OnValueChange = UpdateBoneMeshTransform;
             _boneMeshScaleY.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneMeshScaleY);
 
             _boneMeshScaleZ = new TextInput(false, new Vector2(0.33f, transInputHeight), Anchor.AutoInline);
             _boneMeshScaleZ.Value = "1";
-            _boneMeshScaleZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _boneMeshScaleZ.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _boneMeshScaleZ.OnValueChange = UpdateBoneMeshTransform;
             _boneMeshScaleZ.WhileMouseDown = StartDraggingValue;
             _bonesPanel.AddChild(_boneMeshScaleZ);
@@ -462,7 +462,7 @@ namespace MonoSkelly.Editor
             _animationStepPropsPanel.AddChild(new Paragraph("Step Duration:", Anchor.AutoInline, new Vector2(0.52f, -1f)));
             _animationStepDuration = new TextInput(false, new Vector2(0.48f, transInputHeight + 2), Anchor.AutoInline);
             _animationStepDuration.Value = "1";
-            _animationStepDuration.Validators.Add(new GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly(true));
+            _animationStepDuration.Validators.Add(new GeonBit.UI.Entities.TextValidators.NumbersOnly(true));
             _animationStepDuration.OnValueChange = StepDurationChanged;
             _animationStepDuration.WhileMouseDown = StartDraggingValue;
             _animationStepDuration.ToolTipText = "Current step duration, in seconds (duration = time to lerp transformations to next step).";
